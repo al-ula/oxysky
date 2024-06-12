@@ -1,0 +1,10 @@
+[package]
+name = "oxysky_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.4"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
+tokio = { version = "1.38.0", features = ["full"] }

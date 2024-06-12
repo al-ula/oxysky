@@ -1,0 +1,12 @@
+[package]
+name = "oxysky_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oxysky_lib = { path = "../oxysky_lib" }
+reqwest = "0.12.4"
+rpassword = "7.3.1"
+serde_json = "1.0.117"
+tokio = { version = "1.38.0", features = ["full"] }
+serde = { version = "1.0.203", features = ["derive"] }
